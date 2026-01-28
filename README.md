@@ -2,20 +2,20 @@
 
 A minimalist API for generating personalized daily notes per device, with intelligent caching that reuses the same note throughout the day.
 
-The application will be available at `http://localhost:3000`
+The application will be available at `https://notes-caki.onrender.com/`
 
 ## 📚 Endpoints
 
-### [GET `/`](http://localhost:3000/)
+### [GET `/`](https://notes-caki.onrender.com/)
 Home endpoint that displays this documentation rendered as HTML.
 
-### [GET `/notes`](http://localhost:3000/notes)
+### [GET `/notes`](https://notes-caki.onrender.com/notes)
 Gets the daily note for your device.
 
-### [Swagger UI](http://localhost:3000/docs)
+### [Swagger UI](https://notes-caki.onrender.com/docs)
 Interactive interface to explore and test all endpoints.
 
-### [Swagger JSON](http://localhost:3000/api-json)
+### [Swagger JSON](https://notes-caki.onrender.com/api-json)
 OpenAPI specification in JSON format.
 
 ## 🛠️ Technologies
