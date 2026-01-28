@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src/domain",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpackOptions": {
+      "watchOptions": {
+        "poll": 1000,
+        "aggregateTimeout": 100
+      }
+    }
+  },
+  "entryFile": "domain/main"
+}
